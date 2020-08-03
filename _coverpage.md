@@ -10,7 +10,7 @@
 - All snipets and structure
 - Also help Newbee developers
 
-[GitHub](https://github.com/bappa2du/shiftenter.dev/)
+[Hire Me](https://github.com/bappa2du)
 [Get Started](welcome.md)
 
 ![color](#ffffff)
