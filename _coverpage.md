@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](/_media/logo.svg ':size=20%')
+![logo](/_media/shiftenter.png ':size=20%')
 
 # 🧑‍💻 ShiftEnterDev <small>1.0</small>
 
