@@ -1,4 +1,4 @@
-## Playmagento
+## ShiftEnter.Dev
 
-> https://playmagento.com
+> https://shiftenter.dev
 

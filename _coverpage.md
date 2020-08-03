@@ -2,15 +2,15 @@
 
 ![logo](/_media/logo.svg ':size=20%')
 
-# 🧑‍💻 playmagento <small>1.0</small>
+# 🧑‍💻 ShiftEnterDev <small>1.0</small>
 
-> A magical ⚡ documentation for Magento devops. 🎈
+> A magical ⚡ documentation for Artisan devops. 🎈
 
 - Simple and straight-forword
 - All snipets and structure
-- Also help Laravel developers
+- Also help Newbee developers
 
-[GitHub](https://github.com/bappa2du/playmagento/)
+[GitHub](https://github.com/bappa2du/shiftenter.dev/)
 [Get Started](welcome.md)
 
 ![color](#ffffff)

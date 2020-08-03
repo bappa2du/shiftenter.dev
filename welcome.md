@@ -1,5 +1,5 @@
 ## Welcome `v1.0`
-?> Welcome **playmagento.com** `v1.0` :100:
+?> Welcome **ShiftEnter.dev** `v1.0` :100:
 
 !> This documentation is still on development.
 ## Install server
