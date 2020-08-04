@@ -17,3 +17,14 @@ class Vendor extends Model
 	public $timestamps = false;
 }
 ```
+
+## Find Many
+> Eloquent method find() may accept multiple parameters, and then it returns a Collection of all records found, not just one Model.
+
+```php
+// Will return Eloquent Model
+$product = Product::find(3);
+
+//Will return Eloquent Collection
+$products = Product::find([3,5,77]); 
+```
