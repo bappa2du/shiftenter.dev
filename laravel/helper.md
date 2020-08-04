@@ -6,6 +6,14 @@
         ]
 ```
 
+## Root htaccess
+> If laravel hosted using cpanel sometimes its difficult to map root folder to public. In that case create a `.htaccess` file with the content below.
+```bash
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L,QSA]
+```
+
 ## Packages
 > Important or Recommanded packages for Laravel which most frequently using
 1. For debugging `barryvdh/laravel-debugbar`

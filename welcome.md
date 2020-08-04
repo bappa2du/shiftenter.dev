@@ -90,6 +90,19 @@ curl -sL https://deb.nodesource.com/setup_lts.x | bash -
 apt-get install -y nodejs
 ```
 
+## Nodejs multiple version
+> There is a handy way to manage multiple nodejs version. Install `n` as 
+```bash
+sudo npm -g install n
+# install nodejs 12.xx(latest)
+sudo n 12
+# install nodejs 10.xx(latest)
+sudo n 10
+# select nodejs version using up / down arrow by
+sudo n
+```
+?> Sometimes you need to restart the terminal to see the effect.
+
 ## Valet(Mac OS)
 > Valet for MacOS development platform
 ```bash
