@@ -10,10 +10,14 @@
     - [Varnish](/magento/varnish)
     - [Redis](/magento/redis)
     - [Helper](/magento/helper)
+- Laravel
+    - [Route](/laravel/route)
+    - [Eloquent](/laravel/eloquent)
+    - [Validation](/laravel/validation)
+    - [Blade](/laravel/blade)
+    - [Helper](/laravel/helper)
 - PHP
     - [Helper](/php/helper)
-- Laravel
-    - [Helper](/laravel/helper)
 - Javascript
     - [Basic](/javascript)
 - Linux
