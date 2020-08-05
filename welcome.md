@@ -1,3 +1,5 @@
+# Getting Started
+
 ## Welcome `v1.0`
 ?> Welcome **ShiftEnter.dev** `v1.0` :100:
 

@@ -21,7 +21,7 @@
   <meta property="twitter:title" content="ShiftEnterDev - A magical documentation for Artisan devops.">
   <meta property="twitter:description" content="ShiftEnterDev - A magical documentation for Artisan devops.">
   <meta property="twitter:image" content="https://shiftenter.dev/_media/shiftenterdev.jpg">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <style>
     nav.app-nav li ul {
       min-width: 100px;
@@ -29,7 +29,7 @@
   </style>
 </head>
 <body>
-  <div id="app">Loading ...</div>
+  <div id="app"></div>
   <script>
     window.$docsify = {
       homepage: 'welcome.md',
@@ -40,22 +40,20 @@
       onlyCover: true,
       loadSidebar: true,
       notFoundPage: true,
-      routerMode: 'history',
+      // routerMode: 'history',
       loadNavbar: true,
       mergeNavbar: false,
-      maxLevel: 4,
+      maxLevel   : 3,
+      subMaxLevel: 3,
       // themeColor: '#2980b9',
-      subMaxLevel: 2,
       // logo: '/_media/laptop.png',
       name: '🎉 ShiftEnterDev',
       search: {
         noData: {
-          '/sv/': 'Keine Ergebnisse!',
           '/': 'No results!'
         },
         paths: 'auto',
         placeholder: {
-          '/sv/': 'Sok',
           '/': 'Search'
         }
       },
@@ -66,6 +64,10 @@
       },
       disqus: 'shiftenter',
       auto2top: true,
+      themeable: {
+          readyTransition : true, // default
+          responsiveTables: true  // default
+      },
       repo: 'bappa2du/shiftenter.dev',
       plugins: [
         function (hook, vm) {
@@ -91,15 +93,22 @@
       ]
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-nginx.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script> -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-nginx.min.js"></script> -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-php.min.js"></script> -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <!-- <script src="//unpkg.com/docsify-edit-on-github/index.js"></script> -->
-  <script src="https://unpkg.com/docsify-copy-code"></script>
+  <!-- <script src="https://unpkg.com/docsify-copy-code"></script> -->
 </body>
 </html>

@@ -11,6 +11,6 @@
 - Also help Newbee developers
 
 [Hire Me](https://github.com/bappa2du)
-[Get Started](welcome.md)
+[Get Started](welcome)
 
 ![color](#ffffff)
