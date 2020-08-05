@@ -11,15 +11,15 @@
     - [Redis](magento/redis)
     - [Helper](magento/helper)
 - Laravel
-    - [Route](/laravel/route)
-    - [Eloquent](/laravel/eloquent)
-    - [Validation](/laravel/validation)
-    - [Blade](/laravel/blade)
-    - [Helper](/laravel/helper)
+    - [Route](laravel/route)
+    - [Eloquent](laravel/eloquent)
+    - [Validation](laravel/validation)
+    - [Blade](laravel/blade)
+    - [Helper](laravel/helper)
 - PHP
-    - [Helper](/php/helper)
+    - [Helper](php/helper)
 - Javascript
-    - [Basic](/javascript)
+    - [Basic](javascript)
 - Linux
     - [Management](linux)
 - Misc
