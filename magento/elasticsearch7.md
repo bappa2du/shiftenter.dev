@@ -34,3 +34,5 @@ http.port: 9200
 network.host: 0.0.0.0
 discovery.zen.minimum_master_nodes: 2
 ```
+
+!> This will enable the remote access via `9200` port.
