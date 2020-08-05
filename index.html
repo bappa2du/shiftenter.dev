@@ -40,10 +40,11 @@
       onlyCover: true,
       loadSidebar: true,
       notFoundPage: true,
-      // routerMode: 'history',
+      routerMode: 'history',
       loadNavbar: true,
       mergeNavbar: false,
       maxLevel   : 3,
+      relativePath: true,
       subMaxLevel: 3,
       // themeColor: '#2980b9',
       // logo: '/_media/laptop.png',
@@ -91,9 +92,21 @@
           })
         }
       ]
-    }
+    };
+     window.$docsify.plugins.push((hook, vm)=>{
+        hook.ready(()=>{
+          console.log(vm);
+
+          // handling redirects
+          vm.route = vm.router.parse();
+          document.body.setAttribute('data-page', vm.route.file);
+          vm._updateRender();
+          vm.$fetch(() => { }, vm.$resetEvents.bind(vm, 'navigate'));
+
+        });
+      });
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
@@ -101,7 +114,7 @@
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
   <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script> -->
