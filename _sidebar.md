@@ -1,7 +1,7 @@
 - Getting Started
     - [Dev Environment](/welcome)
 - Magento
-    - [Setup & Installation](/magento)
+    - [Setup & Installation](/magento/index)
     - [Management](/magento/management)
     - [Structure](/magento/structure)
     - [GraphQL](/magento/graphql)
