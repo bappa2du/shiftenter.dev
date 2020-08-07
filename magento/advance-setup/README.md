@@ -3,7 +3,7 @@
 ### Elasticsearch 7
 
 {% hint style="info" %}
-Install elasticsearch `v7.x`
+Install Elasticsearch `v7.x`
 {% endhint %}
 
 ```bash
@@ -22,7 +22,7 @@ tar -xzf elasticsearch-7.8.1-darwin-x86_64.tar.gz
 cd elasticsearch-7.8.1/ 
 ```
 
-#### Running as deamon
+#### Running as daemon
 
 ```text
 $ ./bin/elasticsearch -d -p pid
