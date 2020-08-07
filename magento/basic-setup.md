@@ -145,7 +145,7 @@ Other options are `--elasticsearch-username`,`--elasticsearch-password`
 {% endhint %}
 
 {% hint style="danger" %}
-As we know from Magento 2.4.0 Elasticsearch is required for magento installation. So you must have a running local or remote elasticsearch cluster. Check the [Advance setup section](advance-setup/#elasticsearch-7).
+As we know from **Magento 2.4.0** Elasticsearch is required for magento installation. So you must have a running local or remote elasticsearch cluster. Check the [Advance setup section](advance-setup/#elasticsearch-7).
 {% endhint %}
 
 ### Install Sample Data
