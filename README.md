@@ -1,8 +1,8 @@
 ---
-description: Welcome to shiftenter.dev site. A magical documentation for Artisan devops.
+description: ✍ Welcome to shiftenter.dev site. A magical documentation for Artisan devops.
 ---
 
-# Welcome
+# ⚡Welcome
 
 ## A documentation for developer mostly for **`Magento` and** `Laravel`
 
