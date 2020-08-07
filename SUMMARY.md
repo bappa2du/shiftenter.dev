@@ -12,11 +12,12 @@
 * [Advance Setup](magento/advance-setup/README.md)
   * [Installation Checklist](magento/advance-setup/installation-checklist.md)
   * [Redis](magento/advance-setup/redis.md)
-  * [GraphQL](magento/advance-setup/graphql.md)
   * [Module](magento/advance-setup/module.md)
   * [Tricks](magento/advance-setup/tricks.md)
 * [Developer](magento/developer/README.md)
   * [Database](magento/developer/database.md)
+  * [GraphQL](magento/developer/graphql.md)
+  * [Module](magento/developer/module.md)
 
 ## Laravel
 
