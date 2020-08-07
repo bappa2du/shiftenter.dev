@@ -12,5 +12,11 @@ description: ✍ Welcome to shiftenter.dev site. A magical documentation for Art
 Hopefully I will go through all of my experience. 
 {% endhint %}
 
+## 1.0.0 - 2020-08-06
 
+### Initial Release
+
+* Initial release of shiftenter.dev
+
+## 
 
