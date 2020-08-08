@@ -111,7 +111,7 @@ export default {
 {% endtab %}
 {% endtabs %}
 
-### Locally:
+#### Locally:
 
 Include your resources in your `.vue` file inside the `pages/` directory \(here in the head function\):
 
@@ -149,4 +149,67 @@ Include your resources in your `.vue` file inside the `pages/` directory \(here 
 </style>
 ```
 {% endcode %}
+
+### Host & Port
+
+{% tabs %}
+{% tab title="nuxt.config.js" %}
+```text
+export default {
+  server: {
+    port: 8000, // default: 3000
+    host: '0.0.0.0' // default: localhost
+  }
+  // other configs
+}
+```
+{% endtab %}
+{% endtabs %}
+
+### Firebase
+
+Install the module via NPM or Yarn.
+
+{% tabs %}
+{% tab title="YARN" %}
+```text
+yarn add @nuxtjs/firebase
+```
+{% endtab %}
+
+{% tab title="NPM" %}
+```
+npm i @nuxtjs/firebase
+```
+{% endtab %}
+{% endtabs %}
+
+#### Configure:
+
+{% tabs %}
+{% tab title="nuxt.config.js" %}
+```text
+modules: [
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: '<apiKey>',
+          authDomain: '<authDomain>',
+          databaseURL: '<databaseURL>',
+          projectId: '<projectId>',
+          storageBucket: '<storageBucket>',
+          messagingSenderId: '<messagingSenderId>',
+          appId: '<appId>',
+          measurementId: '<measurementId>'
+        },
+        services: {
+          auth: true // Just as example. Can be any other service.
+        }
+      }
+    ]
+  ],
+```
+{% endtab %}
+{% endtabs %}
 
