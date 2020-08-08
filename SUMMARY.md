@@ -38,6 +38,8 @@
 
 * [API](javascript/api.md)
 * [Framework](javascript/framework/README.md)
+  * [NuxtJS](javascript/framework/nuxtjs/README.md)
+    * [Customization](javascript/framework/nuxtjs/customization.md)
   * [Electron Js](javascript/framework/electron-js.md)
 
 ## Linux
