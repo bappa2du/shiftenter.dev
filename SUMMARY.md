@@ -15,9 +15,11 @@
   * [Module](magento/advance-setup/module.md)
   * [Tricks](magento/advance-setup/tricks.md)
 * [Developer](magento/developer/README.md)
+  * [Playground](magento/developer/playground.md)
   * [Database](magento/developer/database.md)
   * [GraphQL](magento/developer/graphql.md)
   * [Module](magento/developer/module.md)
+  * [Programmatic Solutions](magento/developer/programmatic-solutions.md)
 
 ## Laravel
 
