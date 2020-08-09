@@ -85,3 +85,41 @@ Livewire components MUST have a single root element.
 </html>
 ```
 
+### Livewire Route <a id="route-registration"></a>
+
+If you find yourself writing controllers and views that only return a Livewire component, you might want to use Livewire's routing helper to cut out the extra boilerplate code. Take a look at the following example:
+
+**Before -**
+
+```php
+// Route
+Route::get('/home', 'HomeController@show');
+
+// Controller
+class HomeController extends Controller
+{
+    public function show()
+    {
+        return view('home');
+    }
+}
+
+// View
+@extends('layouts.app')
+
+@section('content')
+    @livewire('counter')
+@endsection
+```
+
+**After -**
+
+```php
+// Route
+Route::livewire('/home', 'counter');
+```
+
+{% hint style="warning" %}
+Note: for this feature to work, Livewire assumes you have a layout stored in `resources/views/layouts/app.blade.php` that yields a "content" section \(`@yield('content')`\)
+{% endhint %}
+
