@@ -58,3 +58,25 @@ For slack workspace search for an Apps as `Incoming Webhooks`. When adding the a
 For getting all the logs type like `info`,`debug`,`error` through webhook, go to `config/logging.php` and in `channels` section for `slack` set level `info` instead `debug`.
 {% endhint %}
 
+### Ajax Request in Laravel
+
+Since laravel required **csrf token** for several request so it's required also for ajax request.
+
+Add a meta tag in header like
+
+```bash
+<meta name="csrf-token" content="{{ csrf_token() }}">
+```
+
+For jquery ajax setup globally as
+
+```bash
+<script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
+```
+
