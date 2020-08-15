@@ -36,7 +36,8 @@
 
 ## PHP
 
-* [Tweaks](php/tweaks.md)
+* [Tweaks](php/tweaks/README.md)
+  * [Curl](php/tweaks/curl.md)
 
 ## Javascript
 
