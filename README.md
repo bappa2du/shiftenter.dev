@@ -1,12 +1,10 @@
 ---
-description: >-
-  ✍ Welcome to shiftenter.dev site. An experience documentation for Artisan
-  devops.
+description: ✍ Welcome to the shiftenter.dev. A simple blog for Artisan DevOps.
 ---
 
 # ⚡Welcome
 
-## A documentation from my experience mostly for **`Magento` ,** `Laravel` and `javascript` 😎 
+## A blog from my experience mostly for **`Magento` ,** `Laravel` and `javascript` 😎 
 
 {% hint style="danger" %}
 Sorry the site still in development and not fully organised yet. I am working on it.

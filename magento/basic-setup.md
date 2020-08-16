@@ -1,5 +1,7 @@
 # Basic Setup
 
+## Magento 2 basic setup procedure
+
 ### Nginx virtual host
 
 #### Create Virtual Host nginx
