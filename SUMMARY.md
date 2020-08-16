@@ -37,7 +37,7 @@
 ## PHP
 
 * [Tweaks](php/tweaks/README.md)
-  * [Curl](php/tweaks/curl.md)
+  * [PHP Curl](php/tweaks/php-curl.md)
 
 ## Javascript
 
@@ -49,6 +49,7 @@
 
 ## Linux
 
-* [Basic](linux/basic.md)
+* [Basic](linux/basic/README.md)
+  * [Curl](linux/basic/curl.md)
 * [CentOS 7](linux/centos-7.md)
 
