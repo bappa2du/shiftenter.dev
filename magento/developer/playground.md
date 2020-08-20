@@ -1,4 +1,10 @@
+---
+description: Magento project based playground for testing
+---
+
 # Playground
+
+### Magento project custom file for testing
 
 If you want test with some custom class or custom query or any other functionality, then create a test file as demo.php or whatever you like and play with that as below
 
