@@ -36,6 +36,8 @@ limit 20,40;
 QUERY;
 
 $data = $connection->fetchAll($query);
+
+
 ```
 {% endtab %}
 {% endtabs %}
