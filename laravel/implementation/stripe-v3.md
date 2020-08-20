@@ -9,6 +9,11 @@ At first we need two things from stripe
 
 Add these keys to your .env file
 
+```php
+STRIPE_KEY=pk_test_1SuopxxxxkG6xxxxxxrHiuQAu94
+STRIPE_SECRET=sk_test_Lrww1Ixxxxxxxxxxxxxxx
+```
+
 Now first go to your controller function and add as following
 
 ```php
@@ -21,7 +26,7 @@ public function payment()
             [
                 'price_data' => [
                     'currency'     => 'usd',
-                    'unit_amount'  => 9999,
+                    'unit_amount'  => 7375,
                     'product_data' => [
                         'name'        => 'Product title',
                         'description' => 'Product description',
@@ -31,7 +36,7 @@ public function payment()
                 'quantity'   => 1,
             ],
         ],
-        'locale'               => 'sv',
+        'locale'               => 'en',
         'livemode'             => false,
         'mode'                 => 'payment',
         'success_url'          => route('payment.success'),
