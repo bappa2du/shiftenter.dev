@@ -161,7 +161,17 @@ $ php -f magento2-sample-data-2.3.5/dev/tools/build-sample-data.php -- --ce-sour
 $ sudo chmod -R 777 magento2-sample-data-2.3.5/pub
 ```
 
-### Deploy Project
+### Deploy Project for Developer mode
+
+```bash
+php bin/magento deploy:mode:set developer
+```
+
+{% hint style="info" %}
+By default a magento project set to **default** mode.
+{% endhint %}
+
+### Deploy Project for Production
 
 ```bash
 $ php bin/magento deploy:mode:set production --skip-compilation
