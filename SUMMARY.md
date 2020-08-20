@@ -33,6 +33,8 @@
   * [Blade Template](laravel/tweaks/blade-template.md)
   * [Validation](laravel/tweaks/validation.md)
   * [Helper](laravel/tweaks/helper.md)
+* [Implementation](laravel/implementation/README.md)
+  * [Stripe V3](laravel/implementation/stripe-v3.md)
 
 ## PHP
 
