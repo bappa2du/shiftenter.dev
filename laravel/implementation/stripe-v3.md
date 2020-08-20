@@ -51,7 +51,11 @@ public function payment()
 }
 ```
 
-Then in your payment payment blade file add 
+{% hint style="info" %}
+Here I pass the **session\_id** to the **view\(payment.blade.php\)**.
+{% endhint %}
+
+Then in your payment blade file add 
 
 ```php
 <div>
