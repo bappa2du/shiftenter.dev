@@ -9,7 +9,7 @@ description: Magento project based playground for testing
 If you want test with some custom class or custom query or any other functionality, then create a test file as demo.php or whatever you like and play with that as below
 
 {% tabs %}
-{% tab title="demo.php" %}
+{% tab title="test.php" %}
 ```php
 <?php
 
