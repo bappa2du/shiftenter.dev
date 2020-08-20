@@ -1,6 +1,10 @@
+---
+description: Stripe v3 implementation for Laravel
+---
+
 # Stripe V3
 
-### Stripe version 3 implemetation in laravel
+### Stripe version 3 implemetation for Laravel
 
 At first we need two things from stripe
 
