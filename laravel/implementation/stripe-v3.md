@@ -31,6 +31,8 @@ public function payment()
                 'quantity'   => 1,
             ],
         ],
+        'locale'               => 'sv',
+        'livemode'             => false,
         'mode'                 => 'payment',
         'success_url'          => route('payment.success'),
         'cancel_url'           => route('paymeny.cancel'),
@@ -66,4 +68,6 @@ Then in your payment payment blade file add
 When you click the button pay with stripe you will see a similar page
 
 ![Stripe checkout\(v3\)](../../.gitbook/assets/screenshot-2020-08-20-at-11.56.45-am.png)
+
+You can also see the [developer documentation](https://stripe.com/docs/api) for more information.
 
