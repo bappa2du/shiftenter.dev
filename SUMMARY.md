@@ -20,6 +20,7 @@
   * [GraphQL](magento/developer/graphql.md)
   * [Module](magento/developer/module.md)
   * [Programmatic Solutions](magento/developer/programmatic-solutions.md)
+  * [Exam Help](magento/developer/exam-help.md)
 
 ## Laravel
 
