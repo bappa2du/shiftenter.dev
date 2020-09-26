@@ -6,7 +6,7 @@ description: Magento project based playground for testing
 
 ### Magento project custom file for testing
 
-If you want test with some custom class or custom query or any other functionality, then create a test file as demo.php or whatever you like and play with that as below
+If you want to test with some custom class or custom query or any other functionality, then create a test file as demo.php or whatever you like and play with that as below
 
 {% tabs %}
 {% tab title="test.php" %}
@@ -44,6 +44,34 @@ QUERY;
 $data = $connection->fetchAll($query);
 
 
+```
+{% endtab %}
+
+{% tab title="Play.php" %}
+```php
+<?php
+
+require __DIR__ . '/app/bootstrap.php';
+
+class TestApp extends \Magento\Framework\App\Http implements \Magento\Framework\AppInterface
+{
+    public function launch()
+    {
+        $product = $this->_objectManager->get(\Magento\Catalog\Model\ProductFactory::class)->create();
+        $product->load(1);
+        echo $product->getName() . "\n";
+        return $this->_response;
+    }
+
+    public function catchException(\Magento\Framework\App\Bootstrap $bootstrap, \Exception $exception): bool
+    {
+        return false;
+    }
+}
+
+$bootstrap = \Magento\Framework\App\Bootstrap::create(BP, $_SERVER);
+$app = $bootstrap->createApplication(TestApp::class);
+$bootstrap->run($app);
 ```
 {% endtab %}
 {% endtabs %}
